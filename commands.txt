@@ -1,1 +1,59 @@
-cs /								[Takes you to the root directory]
+1] cd /								(5.08)[Takes you to the root directory]
+
+2] ls								(5.08)[shows you the content of the folder in which you execute this command]
+
+3] cd home							(5.08)[cd:Change Directory| this command takes you to the home directory, at least it works when you execute it while standing in the root directory (command #1)]
+
+4] cd <username>						(5.08)		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
