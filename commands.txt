@@ -1,0 +1,1 @@
+cs /								[Takes you to the root directory]
