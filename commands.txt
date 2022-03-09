@@ -1,13 +1,68 @@
-1] cd /								(5.08)[Takes you to the root directory]
-
-2] ls								(5.08)[shows you the content of the folder in which you execute this command]
-
-3] cd home							(5.08)[cd:Change Directory| this command takes you to the home directory, at least it works when you execute it while standing in the root directory (command #1)]
-
-4] cd <username>						(5.08)		
+1]  cd /								(5.08)[Takes you to the root directory]
 
 
-bla bla bla
+2]  ls								(5.08)[shows you the content of the folder in which you execute this command, content may include files as well as further directories]
+
+
+3]  cd /home/							(5.08)[cd:Change Directory| wherever you are, if you execute this command, this command takes you to the HOME of ROOT Directory]
+
+
+4]  cd <username>						(5.08)[u have to execute it after #3, it'll take you to the HOME of the specified user]
+
+
+5]  ~$ vs /$							(5.08)[/$ : u are at the root directory | ~$ : u are at the HOME of the specified user](I remember allocating 100 gb to root; 64 gb to swap; and remaining more than 150 gb to home directory)
+
+
+6]  cd Desktop/		cd /Desktop/		cd /Desktop/				(5.08)[takes you to the Desktop ONLY if you execute it after #4,after getting in home i.e. ~. use	cd ..	if u want to go back]
+
+
+7]  cd /home/<username>/directory1/subdirectory/subsubdirectory/			(5.08)[u have to execute it after #3, continuing in this manner u can go arbitrarily forward into any directory, but if u are already in a forward directory, u cannot go backward in that way, to got backward u have to use #8]
+
+
+8]  cd ..							(5.08)(takes you to a directory, which is one step backward as compared to your current directory| it performs the function of BACKSPACE)
+
+
+9]  mkdir <name of new directory>				(5.08)[mkdir: make directory| it makes a new directory inside your current directory]
+
+
+10] cd <name of directory which is one step forward than your current directory>	(5.08)
+
+
+11] touch <name of the new file, e.g app.txt>			(5.08)(creates a new file with the specified name, in you current directory)
+
+
+12] vi <name of the text file u want to edit> 	then press 'i' 		then start writing		then press shift + :		then type <wq>(writing quit)		then press Enter	(5.08)[u have to execute it while standing in the directory in which the file is present]
+
+
+13] cat <name of the text file u want to see/view e.g app.txt>				(5.08)[prints the content of the specified file]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
