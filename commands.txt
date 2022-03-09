@@ -37,16 +37,22 @@
 13] cat <name of the text file u want to see/view e.g app.txt>				(5.08)[prints the content of the specified file]
 
 
+14] cp <name of the file you want to COPY, e.g app.txt> <address of the folder where you want to paste the file e.g /home/ans/Desktop/career/>
 
 
+15] mv <name of the file you want to CUT/MOVE, e.g app.txt> <address of the folder where you want to paste the file e.g /home/ans/Desktop/career/>
 
 
+16] rm <rm: remove| name of the file you want to remove e.g app.txt>
 
 
+17] man <name of any command>					(5.09)[it gives you the complete name of the specified command, it also give you the function of the command, it also tells you how it can be combined with other key words to enhance it's functionality]
 
 
+18] find <name of the file>					(5.09)[tells you whether the specified file is present in the current directory or not]
 
 
+19]
 
 
 
