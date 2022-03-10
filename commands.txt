@@ -52,7 +52,40 @@
 18] find <name of the file>					(5.09)[tells you whether the specified file is present in the current directory or not]
 
 
-19]
+INSTALLING SOFTWARES
+
+
+19] apt-get install <package name>				(5.12)[installs the specified package, but FIRST u have to execute #20 otherwise permission will be denied and u won't be able to install it]
+
+
+20] sudo su							(5.13)[you will be logged in as root user, now you are a d/f type of user and you will have the permisiion to install anything]
+
+
+21] sudo apt-get install <package name>				(5.13)[if u use this command, u won't have to run #20 and then #19, with this command u can directly install anything while still being a normal user]
+
+
+SHORTCUT KEYS
+
+
+22] if, after typing first 3 or first 4 letters of a command, u press 'Tab' key, it will automaticall complete the remaining letters of the command. E.g press tab after typing "apt-g". AUTO COMPLETE
+
+
+23] if after typing the first word of a command, u double press 'Tab' key, it will show you all of the variants of the specified command. E.g double press tab after typing ls. VARIANTS 
+
+
+24] clear								[clears the current page, and takes you at the start of new clear page]
+
+
+25] ctrl + a							(5.14)[takes u to the begining of your current line]
+
+
+26] ctrl + e							(5.14)[takes u to the end of your current line]
+
+
+27] Arrow Up							(5.14)[if u press it one time, it will show the last command you executed, if u press it two times it will show u the 2nd last command u executed & so on... You can COMBINE it with "Arrow Down" to navigate through the executed commands]
+
+
+END SHORTCUTS
 
 
 
@@ -79,23 +112,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 
 
 
