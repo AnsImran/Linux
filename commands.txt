@@ -49,7 +49,14 @@
 17] man <name of any command>					(5.09)[it gives you the complete name of the specified command, it also give you the function of the command, it also tells you how it can be combined with other key words to enhance it's functionality]
 
 
-18] find <name of the file>					(5.09)[tells you whether the specified file is present in the current directory or not]
+18] find <enter the path of directory in which you want to perform search> -name "<name of the file along with extension>"					(5.09)[tells you whether the specified file is present in the specified directory or not]
+
+
+18.2] 18] find <name of the file along with extension>					(5.09)[tells you whether the specified file is present in your current directory or not]
+
+
+18] find <enter the path of directory in which you want to perform search> -name "<name of the file*>"					(5.09)[tells you whether the specified file is present (WITH ANY EXTENSION) in the specified directory or not]
+
 
 
 INSTALLING SOFTWARES
@@ -87,26 +94,43 @@ SHORTCUT KEYS
 
 END SHORTCUTS
 
+28] See 5.15 & 5.16 & 5.17 to learn how to create and run a script
 
 
+29] see 5.17 to see how to give and take permission to/from a file.
 
 
+30] uptime							(5.18)[tell you total amount of time of the current run of your system]
 
 
+31] uname							(5.18)[it'll tell you the name of operating system]
 
 
+32] uname -srv							(5.18)[more detailed than #31]
 
 
+33] cd ~							(5.18)[takes u directly to the home of the user]
 
 
+34] pwd								(5.18)[prints the name of your current directory]
 
 
+35] hostname							(5.18)[shows you host name]
 
 
+36] hostname -i							(5.18)[shows you, your IP adress]
 
 
+37] date								(5.18)[shows you current date and time]
 
 
+38] cal									(5.18)[shows calendar]
+
+
+39] w									(5.18)[shows you which user is online, also provides a lot  more detail]
+
+
+40] 
 
 
 
