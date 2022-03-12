@@ -130,13 +130,160 @@ END SHORTCUTS
 39] w									(5.18)[shows you which user is online, also provides a lot  more detail]
 
 
-40] 
+40] uname -a								(5.21)[shows you details of cpu]
+
+
+41] uname -p								(5.21)[info about processor]
+
+
+42] lscpu								(5.21)[Architecture info about cpu]
+
+
+43] cat /proc/ cpuinfo							(5.21)[very detailed info about cpu]
+
+
+44] df									(5.21)[gives details avout space, moounted devices]
+
+
+44] df -h								(5.21)[gives details avout space, moounted devices, IN HUMAN READABLE FORM]
+
+
+45] du									(5.21)[gives you the names and the amount of space, which the files and folders in your current directory are occupying]
+
+
+46] du -s								(5.21)[gives you total size of your current directly]
+
+
+47] du -s -h								(5.21)[gives you size in some understable units]
+
+
+49] sudo apt-get install cpuid						(5.22)[this package gives you very very detailed info about your cpu]
+
+
+50] <program name>							(tells you whether the specified program is installed or not, if installed, i think it also runs the program)
+
+
+51] sudo apt remove <program/package name. e.g cpuid>			(5.22)[uninstalls the specified program]
+
+
+52] sudo apt-cache search <keywords. e.g pyth>				(5.22)[returns you the names of all packages which unclude the speicfies keywords]
+
+
+53] alias <short, altenative name you want to assign to a command e.g df, myfile etc>="<original name of the command you want to shorten> <further orders>"								(5.23)[e.g alias myfile="touch myfile.txt"] [u are making a kind of custom command]
+
+
+54] unalias <custom command>						(5.23)[removes the custom amde command]
+
+
+
+CREATING & DELETING NEW USERS						(5.24)
+
+    go to	cd /home/	then type	sudo useradd <new username> -m		then go to cd /home/		then	types ls		then press enter to see whether the newuser has benn created or not.
+    
+    
+    sudo passwd <new username>		then press ENTER	the enter password
+    
+    
+    sudo userdel <username> -r		instantly deletes the speciified user
+    
+    
+MORE IMPORTANT COMMANDS							(5.26)
+
+	info <name of command about which you want to get info>
+	
+	
+	whatis <name of command about which you want to get info>		[short description of the sepcified dcommand]
+	
+	
+	type <name of command of which you want to find location>		[those commands which show ""aliased to ..." do not have any location]
+	
+	
+	whereis <name of a command: it gives the executable file of the specified command>
+	
+	
+	which <name of command of which you want to find location>
+	
+	
+	bg									[shows you all of the currently running background processes]
+	
+	
+	free -h									[all details about the space of your hard disk]
+	
+	
+	ps									[gives u a list of currently runnng pricesses]
+	
+	
+	kill <PID of process, found using "ps" see above>			[kills the process immmediately]
+	
+	
+	top									[currently running processes & how much memmory they are using]
+	
+	
+	nice									[shows you currently runing low priority programs]
+	
+	
+	reboot
+	
+	
+	shutdown
 
 
 
 
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
